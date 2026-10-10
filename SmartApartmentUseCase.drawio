@@ -1,0 +1,275 @@
+<mxfile host="app.diagrams.net" modified="2026-10-10T00:00:00.000Z" agent="Mozilla/5.0" version="24.7.17">
+  <diagram id="smart-apartment-complaint-system" name="Smart Apartment Complaint &amp; Issue Tracking System">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="base" />
+        <mxCell id="layer-1" parent="base" />
+
+        <mxCell id="title" value="Smart Apartment Complaint &amp; Issue Tracking System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=22;spacing=0;whiteSpace=wrap;" vertex="1" parent="layer-1">
+          <mxGeometry x="290" y="20" width="620" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="systemBoundary" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;dashed=1;dashPattern=8 8;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="260" y="80" width="740" height="980" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sharedLabel" value="Use cases shared by all three roles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;whiteSpace=wrap;" vertex="1" parent="layer-1">
+          <mxGeometry x="400" y="90" width="420" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_shared_1" value="Sign in (password or e-mailed code)" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="140" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_shared_2" value="Forgot / reset password" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="200" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_shared_3" value="View notifications (in-app + e-mail)" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="260" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_shared_4" value="Set notification preferences" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="320" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_shared_5" value="Read announcements • manage own profile" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="380" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_resident_1" value="Report a complaint (photos / video)" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="470" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_resident_2" value="Track complaint status &amp; timeline" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="530" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_resident_3" value="Confirm / reopen / rate the resolution" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="590" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_resident_4" value="Report a lost item (Item Recovery)" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="650" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_resident_5" value="Choose collection or courier &amp; pay" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="710" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_resident_6" value="Confirm the item was received" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="770" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_maintenance_1" value="View assigned queue" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="860" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_maintenance_2" value="Accept assigned complaint" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="915" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_maintenance_3" value="Start / pause / resume work timer" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="970" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_maintenance_4" value="Upload repair evidence" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1025" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_maintenance_5" value="Resolve complaint" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1080" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_admin_1" value="Create &amp; manage user accounts" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1180" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_admin_2" value="Verify, prioritise &amp; assign complaints" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1235" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_admin_3" value="Reject a complaint" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1290" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_admin_4" value="Manage apartments &amp; residents" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1345" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_admin_5" value="Publish announcements" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1400" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_admin_6" value="View reports &amp; export CSV" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1455" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_admin_7" value="View audit logs" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1510" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_admin_8" value="Verify lost item / mark found" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1565" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_admin_9" value="Confirm payment &amp; update courier" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;" vertex="1" parent="layer-1">
+          <mxGeometry x="430" y="1620" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="residentActor" value="Resident" style="shape=umlActor;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=none;strokeWidth=1.5;" vertex="1" parent="layer-1">
+          <mxGeometry x="80" y="380" width="60" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="maintenanceActor" value="Maintenance&#xa;Staff" style="shape=umlActor;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=none;strokeWidth=1.5;" vertex="1" parent="layer-1">
+          <mxGeometry x="80" y="660" width="60" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="adminActor" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=none;strokeWidth=1.5;" vertex="1" parent="layer-1">
+          <mxGeometry x="80" y="950" width="60" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_1" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_shared_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_2" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_shared_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_3" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_shared_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_4" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_shared_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_5" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_shared_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_6" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_resident_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_resident_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_resident_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_9" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_resident_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_resident_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_r_11" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="residentActor" target="uc_resident_6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_m_1" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="maintenanceActor" target="uc_shared_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_m_2" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="maintenanceActor" target="uc_shared_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_m_3" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="maintenanceActor" target="uc_shared_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_m_4" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="maintenanceActor" target="uc_shared_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_m_5" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="maintenanceActor" target="uc_shared_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_m_6" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="maintenanceActor" target="uc_maintenance_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_m_7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="maintenanceActor" target="uc_maintenance_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_m_8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="maintenanceActor" target="uc_maintenance_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_m_9" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="maintenanceActor" target="uc_maintenance_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_m_10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="maintenanceActor" target="uc_maintenance_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_1" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_shared_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_2" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_shared_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_3" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_shared_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_4" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_shared_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_5" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_shared_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_6" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_admin_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_admin_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_admin_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_9" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_admin_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_admin_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_11" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_admin_6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_12" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_admin_7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_13" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_admin_8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_a_14" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;" edge="1" parent="layer-1" source="adminActor" target="uc_admin_9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
